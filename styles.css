@@ -580,3 +580,158 @@ body {
     opacity: 0.9;
     transform: scale(1.8);
   }
+/* Base Styles (unchanged) */
+
+/* Responsive Design */
+
+/* Mobile First: Adjusting styles for small screens (max-width: 767px) */
+@media (max-width: 767px) {
+    .header h1 {
+        font-size: 2rem; /* Smaller font size for header */
+    }
+
+    .nav ul li {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .nav ul li a {
+        font-size: 1rem; /* Adjust font size for navigation */
+        padding: 8px 12px; /* Adjust padding */
+    }
+
+    .search-container input {
+        max-width: 80%; /* Increase input size on small screens */
+    }
+
+    .scroll-container {
+        flex-direction: column; /* Stack items vertically */
+        gap: 10px;
+        overflow-x: visible; /* Disable horizontal scroll */
+    }
+
+    .image-card img {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Adjust height automatically */
+    }
+
+    .destination-container, .contact-container {
+        width: 100%; /* Full-width containers on small screens */
+        padding: 10px;
+    }
+
+    .contact-details {
+        flex-direction: column; /* Stack contact details vertically */
+        gap: 10px;
+    }
+
+    .aside {
+        width: 100%; /* Full width for aside */
+        box-shadow: none; /* Remove shadow on smaller screens */
+    }
+
+    .contact-container h3 {
+        font-size: 1.5rem; /* Adjust heading font size */
+    }
+
+    .team .member {
+        flex-direction: column; /* Stack team members vertically */
+        gap: 15px;
+    }
+
+    .profile {
+        max-width: 150px; /* Reduce profile image size */
+        height: 150px;
+    }
+
+    .footer {
+        font-size: 1rem; /* Adjust footer font size */
+        padding: 15px 10px;
+    }
+
+    .footer ul li {
+        padding: 8px; /* Reduce padding */
+    }
+
+    .footer ul li a {
+        font-size: 1.5rem; /* Adjust link font size */
+    }
+}
+
+/* Tablet Screens: (min-width: 768px and max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header h1 {
+        font-size: 2.5rem; /* Moderate font size for header */
+    }
+
+    .nav ul li {
+        padding: 15px;
+    }
+
+    .nav ul li a {
+        font-size: 1.2rem; /* Increase font size slightly */
+    }
+
+    .search-container input {
+        max-width: 60%;
+    }
+
+    .image-card img {
+        width: 80%; /* Image width adjusted */
+        height: auto;
+    }
+
+    .destination-container {
+        width: 90%; /* Increase container width */
+        padding: 15px;
+    }
+
+    .contact-container {
+        width: 80%; /* Adjust container width */
+        padding: 15px;
+    }
+
+    .team .member {
+        flex-direction: row; /* Layout team members side-by-side */
+        gap: 20px;
+    }
+
+    .footer {
+        font-size: 1.2rem;
+    }
+}
+
+/* Large Screens: (min-width: 1025px) */
+@media (min-width: 1025px) {
+    .header h1 {
+        font-size: 3rem; /* Larger font size for large screens */
+    }
+
+    .nav ul li {
+        padding: 20px;
+    }
+
+    .nav ul li a {
+        font-size: 1.4rem;
+    }
+
+    .search-container input {
+        max-width: 40%;
+    }
+
+    .image-card img {
+        width: 200px; /* Original image size */
+        height: 300px;
+    }
+
+    .destination-container {
+        width: 70%; /* Keep the container at 70% width */
+    }
+
+    .contact-container {
+        width: 60%; /* Keep the contact container smaller */
+    }
+
+    .footer {
+        font-size: 1.4rem; /* Larger font size */
+    }
+}
