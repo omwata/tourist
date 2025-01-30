@@ -584,6 +584,9 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
     .header h1 {
         font-size: 2rem;
     }
