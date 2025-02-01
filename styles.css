@@ -586,11 +586,13 @@ body {
 
 /* Default styles for mobile */
 body {
-    font-size: 16px;
+    font-size: 1.5em;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    text-wrap: wrap;
+    height: 100vh;
+    width: 100%
 }
 
 .header {
@@ -611,7 +613,7 @@ body {
 }
 
 .search-button {
-    transform: translateX(60px)
+    transform: translateX(200px)
 }
 
 .image-card img {
