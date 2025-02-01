@@ -583,5 +583,8 @@ body {
 
 
 /* Responsive Design */
-
-
+@media (max-width: 786px) {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
