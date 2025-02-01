@@ -588,6 +588,9 @@ body {
 body {
     font-size: 16px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -606,9 +609,16 @@ body {
     display: block;
     text-align: center;
 }
+
+.search-button {
+    transform: translateX(60px)
+}
+
 .image-card img {
     width: 100px;
     height: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Responsive styles for tablets */
