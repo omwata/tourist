@@ -606,6 +606,10 @@ body {
     display: block;
     text-align: center;
 }
+.image-card img {
+    width: 100px;
+    height: 150px;
+}
 
 /* Responsive styles for tablets */
 @media (min-width: 481px) and (max-width: 768px) {
