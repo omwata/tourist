@@ -614,7 +614,7 @@ body {
         max-width: 100%;
     }
     
-    .search input {
+    .search-container {
         width: 70%;
     }
 
