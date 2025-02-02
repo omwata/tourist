@@ -587,6 +587,8 @@ body {
     body {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
     .header {
         padding: 10px;
@@ -601,3 +603,17 @@ body {
         display: flex;
         flex-direction: column;
     }
+    
+    .main {
+        flex-direction: column;
+        padding: 10px;
+        margin: 1px;
+        max-width: 100wh;
+    }
+    
+    .search input {
+        width: 70%;
+    }
+
+    
+        
