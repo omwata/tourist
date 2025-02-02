@@ -622,6 +622,14 @@ body {
         border-radius: 15px;
     }
 
+    .destination-img {
+        width: 90%;
+    }
+
+    .destination-text {
+        text-align: left;
+    }
+
     .contact-details {
         display: flex;
         flex-direction: column-reverse;
