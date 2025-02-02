@@ -618,11 +618,25 @@ body {
         width: 70%;
     }
 
+    .destination image {
+        border-radius: 15px;
+    }
+
     .contact-details {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
             } 
-    .footer {
+
+    .aside {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .contact-container {
+        width: 100%;
+    }
+
+        .footer {
         width: 100%
     }
 }
