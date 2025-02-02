@@ -595,6 +595,7 @@ body {
     .header {
         padding: 10px;
         gap: 15px;
+        width: 100%;
     }
 
     .header h1 {
@@ -602,9 +603,12 @@ body {
     }
 
     .nav ul {
-        display: flex;
+        width: 100%;
+    }
+
+    .nav ul li {
+        display: inline-block;
         padding: 10px;
-        gap: 10px;
         margin: 2px;
     }
     
@@ -620,7 +624,7 @@ body {
         width: 70%;
     }
 
-    .destination-img image {
+    .destination-img img {
         border-radius: 15px;
     }
 
@@ -629,6 +633,10 @@ body {
     }
 
     .destination-text {
+        text-align: left;
+    }
+
+    .about-text {
         text-align: left;
     }
 
@@ -644,7 +652,6 @@ body {
     .aside ul li {
         display: inline-block;
         padding: 10px;
-        gap: 10px;
     }
     
     .contact-container {
