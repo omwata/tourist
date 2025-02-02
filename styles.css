@@ -610,7 +610,8 @@ body {
         flex-direction: column;
         padding: 10px;
         margin: 1px;
-        max-width: 100wh;
+        width: 100%;
+        max-width: 100%;
     }
     
     .search input {
