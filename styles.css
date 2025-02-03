@@ -654,9 +654,10 @@ body {
 
     .aside ul li {
         display: inline-block;
-        padding: 8px;
-        margin: 1px;
+        padding: 5px;
+        margin: 0;
         font-size: 0.8rem;
+        gap: 0;
     }
     
     .contact-container {
