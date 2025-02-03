@@ -628,12 +628,13 @@ body {
 
     .search-container input {
         max-width: 80%;
+        
     }
 
     .search-button {
         position: relative;
         align-item: center;
-        transform: translateX(200px);
+        transform: translateX(400px);
     }
 
     .scroll-container {
@@ -657,7 +658,7 @@ body {
   }
 
   .image-card img {
-    width: 400px; /* Default image size */
+    width: 90%; /* Default image size */
     height: auto;
     object-fit: cover;
     border-radius: 10px;
