@@ -628,13 +628,13 @@ body {
 
     .search-container input {
         max-width: 80%;
-        
+        transform: translateX(50px);
     }
 
     .search-button {
         position: relative;
         align-item: center;
-        transform: translateX(400px);
+        transform: translateX(350px);
     }
 
     .scroll-container {
