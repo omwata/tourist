@@ -626,11 +626,12 @@ body {
     }
 
     .search-container input {
-        width: 70%;
+        width: 100%;
     }
 
     .search-button {
-        
+        position: center;
+    }
 
     .destination-img img {
         border-radius: 15px;
