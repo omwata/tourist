@@ -634,6 +634,14 @@ body {
         margin-left: 100px;
     }
 
+    .scroll-container {
+    }
+
+    .image-card {
+        max-height: 200px;
+        max-width: 150px;
+    }
+
     .destination-img img {
         border-radius: 15px;
         width: 100%;
