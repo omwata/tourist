@@ -631,13 +631,15 @@ body {
     }
 
     .search-button {
-        margin-left: 100px;
+        position: relative;
+        align-item: center;
     }
 
-      .scroll-container {
+    .scroll-container {
     display: flex;
+    flex-direction: column;
     gap: 20px;
-    overflow-y: auto; /* Enables horizontal scrolling */
+    overflow-y: auto; /* Enables vertical scrolling */
     padding: 10px;
     scroll-snap-type: y mandatory; /* Enables snapping to each child */
   }
