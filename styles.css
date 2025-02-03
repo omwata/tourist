@@ -635,6 +635,9 @@ body {
     }
 
     .scroll-container {
+        display: flex;
+        flex-direction: column;
+        scroll-direction: mandatoryY;
     }
 
     .image-card {
