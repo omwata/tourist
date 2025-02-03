@@ -622,8 +622,15 @@ body {
     }
     
     .search-container {
+        width: 100%;
+    }
+
+    .search-container input {
         width: 70%;
     }
+
+    .search button {
+        
 
     .destination-img img {
         border-radius: 15px;
