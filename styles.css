@@ -634,7 +634,7 @@ body {
     .search-button {
         position: relative;
         align-item: center;
-        transform: translateX(350px);
+        transform: translateX(370px);
     }
 
     .scroll-container {
