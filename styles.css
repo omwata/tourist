@@ -631,7 +631,7 @@ body {
 
     .destination-img {
         width: 100%;
-        max-width: 200px;
+        float: center;
     }
 
     .destination-text {
