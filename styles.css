@@ -627,11 +627,11 @@ body {
     }
 
     .search-container input {
-        max-width: 70%;
+        max-width: 80%;
     }
 
     .search-button {
-        position: center;
+        margin-left: 100px;
     }
 
     .destination-img img {
