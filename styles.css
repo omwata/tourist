@@ -634,16 +634,32 @@ body {
         margin-left: 100px;
     }
 
-    .scroll-container {
-        display: flex;
-        flex-direction: column;
-        scroll-direction: mandatoryY;
-    }
+      .scroll-container {
+    display: flex;
+    gap: 20px;
+    overflow-y: auto; /* Enables horizontal scrolling */
+    padding: 10px;
+    scroll-snap-type: y mandatory; /* Enables snapping to each child */
+  }
 
-    .image-card {
-        max-height: 200px;
-        max-width: 150px;
-    }
+  .scroll-container::-webkit-scrollbar {
+    display: none; /* Hides scrollbar for a cleaner look */
+  }
+
+  .image-card {
+    flex: 0 0 auto; /* Prevent shrinking or growing */
+    scroll-snap-align: center; /* Snap each image to the center */
+    position: relative;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth scaling and opacity transitions */
+  }
+
+  .image-card img {
+    width: 100px; /* Default image size */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+  }
 
     .destination-img img {
         border-radius: 15px;
