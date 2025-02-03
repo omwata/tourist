@@ -633,6 +633,7 @@ body {
     .search-button {
         position: relative;
         align-item: center;
+        transform: translateX(200px);
     }
 
     .scroll-container {
@@ -656,8 +657,8 @@ body {
   }
 
   .image-card img {
-    width: 100px; /* Default image size */
-    height: 200px;
+    width: 400px; /* Default image size */
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease; /* Smooth zoom effect */
